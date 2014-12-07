@@ -10,6 +10,7 @@ import java.io.Serializable;
 public class SensorDataDTO implements Serializable {
 
 	private static final long serialVersionUID = 4101192189743906634L;
+	private String modifyTime;
 	private double temperature;
 	private double humidity;
 	private double co;
@@ -54,5 +55,13 @@ public class SensorDataDTO implements Serializable {
 
 	public void setSerialNum(String serialNum) {
 		this.serialNum = serialNum;
+	}
+
+	public String getModifyTime() {
+		return modifyTime;
+	}
+
+	public void setModifyTime(String modifyTime) {
+		this.modifyTime = modifyTime;
 	}
 }
