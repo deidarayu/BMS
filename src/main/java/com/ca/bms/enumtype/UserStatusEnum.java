@@ -21,9 +21,9 @@ public enum UserStatusEnum {
 	UF("UPDATE_FAILED", "更新失败"),
 	USNC("USER_MSG_NOT_CHANGE", "用户信息未更新"),
 	US("UPDATE_SUCCESS", "更新成功"),
-	UINI("USER_IS_NOT_INSIDE", "请先登陆"),
+	UINI("LOGIN_FIRST", "请先登陆"),
 	UILO("USER_IS_LOGOUT", "用户已退出"),
-	LF("LOGIN_FAILED", "用户名或密码有误");
+	LF("USERNAME_OR_PASSWD_INCORRENT", "用户名或密码有误");
 
 	private static Map<String, UserStatusEnum> valueMap = new HashMap<String, UserStatusEnum>();
 
