@@ -12,6 +12,8 @@ import com.ca.bms.dto.UserDTO;
 public class ReturnMsgUserDTO implements Serializable {
 
 	private static final long serialVersionUID = 7464060837581324768L;
+	private String returnmsg;
+	private String usertoken;
 	private UserDTO userdata;
 
 	public UserDTO getUserdata() {
@@ -20,5 +22,21 @@ public class ReturnMsgUserDTO implements Serializable {
 
 	public void setUserdata(UserDTO userdata) {
 		this.userdata = userdata;
+	}
+
+	public String getUsertoken() {
+		return usertoken;
+	}
+
+	public void setUsertoken(String usertoken) {
+		this.usertoken = usertoken;
+	}
+
+	public String getReturnmsg() {
+		return returnmsg;
+	}
+
+	public void setReturnmsg(String returnmsg) {
+		this.returnmsg = returnmsg;
 	}
 }
