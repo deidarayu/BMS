@@ -1,6 +1,7 @@
 package com.ca.bms.msg.dto;
 
 import java.io.Serializable;
+import java.util.List;
 
 import com.ca.bms.dto.SensorDTO;
 
@@ -12,7 +13,7 @@ import com.ca.bms.dto.SensorDTO;
 public class ReturnMsgSensorDTO implements Serializable {
 	private static final long serialVersionUID = -2676732843544285640L;
 	private String returnmsg;
-	private SensorDTO sensorDTO;
+	private List<SensorDTO> sensor;
 
 	public String getReturnmsg() {
 		return returnmsg;
@@ -22,11 +23,11 @@ public class ReturnMsgSensorDTO implements Serializable {
 		this.returnmsg = returnmsg;
 	}
 
-	public SensorDTO getSensorDTO() {
-		return sensorDTO;
+	public List<SensorDTO> getSensor() {
+		return sensor;
 	}
 
-	public void setSensorDTO(SensorDTO sensorDTO) {
-		this.sensorDTO = sensorDTO;
+	public void setSensor(List<SensorDTO> sensor) {
+		this.sensor = sensor;
 	}
 }
