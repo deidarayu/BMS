@@ -1,4 +1,4 @@
-package com.ca.bms.dto;
+package com.ca.bms.common.dto;
 
 import java.io.Serializable;
 

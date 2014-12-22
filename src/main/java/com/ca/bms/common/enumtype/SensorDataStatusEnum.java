@@ -1,4 +1,4 @@
-package com.ca.bms.enumtype;
+package com.ca.bms.common.enumtype;
 
 import java.util.HashMap;
 import java.util.Map;
