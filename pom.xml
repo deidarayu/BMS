@@ -2,13 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.ca.bms</groupId>
-  <artifactId>common</artifactId>
-  <version>0.0.1</version>
+  <groupId>me.zhilong.bms</groupId>
+  <artifactId>bms-common</artifactId>
+  <version>1.0</version>
   <packaging>jar</packaging>
-
-  <name>common</name>
-  <url>http://maven.apache.org</url>
+  <name>bms-common</name>
+  <url>http://zhilong.me</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
