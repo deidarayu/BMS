@@ -1,8 +1,8 @@
-package com.ca.bms.common.msg.dto;
+package me.zhilong.bms.common.msg.dto;
 
 import java.util.List;
 
-import com.ca.bms.common.dto.AlertMsgDTO;
+import me.zhilong.bms.common.dto.AlertMsgDTO;
 
 public class ReturnMsgAlertDTO {
 	private String returnmsg;

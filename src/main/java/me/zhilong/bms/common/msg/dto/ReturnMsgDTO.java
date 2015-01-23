@@ -1,4 +1,4 @@
-package com.ca.bms.common.msg.dto;
+package me.zhilong.bms.common.msg.dto;
 
 import java.io.Serializable;
 

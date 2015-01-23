@@ -1,9 +1,9 @@
-package com.ca.bms.common.msg.dto;
+package me.zhilong.bms.common.msg.dto;
 
 import java.io.Serializable;
 import java.util.List;
 
-import com.ca.bms.common.dto.SensorDTO;
+import me.zhilong.bms.common.dto.SensorDTO;
 
 /**
  * @author：刘志龙

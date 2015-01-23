@@ -1,4 +1,4 @@
-package com.ca.bms.common.entitys;
+package me.zhilong.bms.common.entitys;
 
 import java.io.Serializable;
 import java.util.List;

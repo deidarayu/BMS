@@ -1,4 +1,4 @@
-package com.ca.bms.common.dto;
+package me.zhilong.bms.common.dto;
 
 /**
  * @author zhilong.liu
