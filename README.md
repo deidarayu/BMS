@@ -1,3 +1,3 @@
 # BMS
-school public project
+school  project
 学校创新项目
